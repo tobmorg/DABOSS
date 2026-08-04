@@ -2,7 +2,7 @@
 
 DABOSS stands for **Debiasing Algorithm for Bodies in the Outer Solar System**. This algorithm is designed to debias populations of Trans-Neptunian Objects (TNOs) and Centaurs/Scattered Disk Objects. It uses orbital data from the Minor Planet Center (MPC), together with a compiled list of survey fields.
 
-The debiasing routine uses the semi-major axis, eccentricity, inclination, argument of pericenter, and longitude of the ascending node for each object. It also uses survey-field information, including right ascension, declination, angular width and height of each frame, and limiting apparent magnitude. The field center coordinates are given in a heliocentric equatorial coordinate system. The method is based on the approach developed by [Vitense, Krivov & Löhne 2010](https://ui.adsabs.harvard.edu/abs/2010A%26A...520A..32V/abstract) and expanded in Morgner & Krivov 2026.
+The debiasing routine uses the semi-major axis, eccentricity, inclination, argument of pericenter, longitude of the ascending node, and absolute magnitude for each object. It also uses survey-field information, including right ascension, declination, angular width and height of each frame, and limiting apparent magnitude. The field center coordinates are given in a heliocentric equatorial coordinate system. The method is inspired by the approach developed by [Vitense, Krivov & Löhne 2010](https://ui.adsabs.harvard.edu/abs/2010A%26A...520A..32V/abstract) and described in more detail in Morgner & Krivov 2026.
 
 ## External Data Used
 

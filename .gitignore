@@ -9,7 +9,6 @@ README.tex
 
 matrix*
 *.csv
-*.txt
 test_*
 
 cpp/src/
